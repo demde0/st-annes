@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Life - St Anne's Prep</title>
+    <meta name="description" content="Discover extracurricular activities, clubs, sports, and student support services at St Anne's Prep.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/254743942030?text=Hello%20Sunrise%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20student%20life%20and%20activities." 
+       class="whatsapp-float" 
+       target="_blank"
+       aria-label="Contact us on WhatsApp">
+        <svg viewBox="0 0 32 32" fill="white" width="28" height="28">
+            <path d="M16 0C7.164 0 0 7.164 0 16c0 2.825.738 5.488 2.031 7.794L0 32l8.394-2.031C10.7 31.262 13.363 32 16 32c8.836 0 16-7.164 16-16S24.836 0 16 0zm0 29.333c-2.544 0-4.944-.7-7-1.912l-.5-.3-5.169 1.25 1.25-5.169-.3-.5C2.7 20.944 2 18.544 2 16 2 8.28 8.28 2 16 2s14 6.28 14 14-6.28 13.333-14 13.333zm7.794-9.794c-.425-.212-2.512-1.244-2.9-1.388-.387-.144-.669-.212-.95.212-.281.425-1.088 1.388-1.331 1.669-.244.281-.488.319-.913.106-.425-.212-1.794-.662-3.419-2.112-1.263-1.125-2.119-2.519-2.363-2.944-.244-.425-.025-.656.188-.869.194-.194.425-.5.638-.75.212-.25.281-.425.425-.7.144-.281.069-.531-.037-.75-.106-.212-.95-2.288-1.3-3.138-.35-.825-.7-.712-.95-.725H8.95c-.281 0-.738.106-1.125.531-.387.425-1.475 1.438-1.475 3.513s1.513 4.075 1.725 4.356c.212.281 2.981 4.556 7.225 6.388 1.013.438 1.8.7 2.419.894.1.031 1.913.569 2.538.35.694-.244 2.512-1.025 2.869-2.019.356-.994.356-1.85.25-2.019-.106-.169-.387-.281-.813-.494z"/>
+        </svg>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html">
+                    <span class="logo-text">St Anne's Prep</span>
+                </a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="student-life.html" class="active">Student Life</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Student Life</h1>
+            <p>Where learning extends beyond the classroom</p>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content-section">
+        <div class="container">
+            <h2>A Vibrant School Community</h2>
+            <p>At St Anne's Prep, education goes beyond textbooks and examinations. We believe in developing well-rounded individuals through a rich variety of extracurricular activities, clubs, sports, and programs that nurture talents, build character, and create lasting memories.</p>
+
+            <h2>Clubs & Societies</h2>
+            <p>Our diverse range of clubs provides students with opportunities to explore interests, develop new skills, and connect with peers who share their passions.</p>
+            
+            <div class="highlights-grid" style="margin-top: 2rem;">
+                <div class="highlight-card">
+                    <h3>Science Club</h3>
+                    <p>Hands-on experiments, science fairs, and exploration of scientific concepts beyond the regular curriculum.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>Debate Society</h3>
+                    <p>Developing public speaking, critical thinking, and argumentation skills through structured debates and competitions.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>Environmental Club</h3>
+                    <p>Tree planting, recycling initiatives, and environmental awareness programs that teach students about sustainability.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>Drama Club</h3>
+                    <p>Theater productions, acting workshops, and creative expression through performance arts.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>Music & Choir</h3>
+                    <p>Vocal training, instrumental lessons, and performance opportunities at school events and competitions.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>Journalism Club</h3>
+                    <p>School newsletter production, writing workshops, and media literacy development.</p>
+                </div>
+            </div>
+
+            <h2 style="margin-top: 3rem;">Sports & Athletics</h2>
+            <p>Physical education is an integral part of our curriculum. We offer a comprehensive sports program that promotes fitness, teamwork, discipline, and healthy competition.</p>
+
+            <h3>Sports Offered</h3>
+            <ul style="list-style: disc; margin-left: 2rem; margin-bottom: 2rem;">
+                <li><strong>Football:</strong> Inter-house competitions and regional tournaments</li>
+                <li><strong>Netball:</strong> Team training and competitive matches</li>
+                <li><strong>Volleyball:</strong> Skills development and school leagues</li>
+                <li><strong>Basketball:</strong> Court practice and friendly matches</li>
+                <li><strong>Athletics:</strong> Track and field events, cross-country running</li>
+                <li><strong>Table Tennis:</strong> Indoor games and tournaments</li>
+                <li><strong>Swimming:</strong> Basic swimming and water safety (seasonal)</li>
+            </ul>
+
+            <p>Our sports facilities include well-maintained playing fields, courts, and equipment. Students participate in inter-school competitions, developing both athletic skills and sportsmanship.</p>
+
+            <h2>Cultural & Creative Programs</h2>
+            <p>We celebrate creativity and cultural expression through various programs that allow students to showcase their artistic talents.</p>
+
+            <h3>Music Programs</h3>
+            <p>Our music department offers instruction in both vocal and instrumental music. Students participate in choir performances, music festivals, and school concerts.</p>
+
+            <h3>Visual Arts</h3>
+            <p>Students explore drawing, painting, sculpture, and crafts in our well-equipped art room. Regular exhibitions showcase student work.</p>
+
+            <h3>Cultural Days</h3>
+            <p>We celebrate Kenya's rich cultural diversity through special events featuring traditional dance, music, food, and dress from various communities.</p>
+
+            <h2>Student Leadership</h2>
+            <p>Leadership development is central to our student life program. We provide opportunities for students to take responsibility and develop leadership skills.</p>
+
+            <h3>Student Council</h3>
+            <p>Democratically elected student representatives who voice student concerns, organize events, and serve as liaisons between students and administration.</p>
+
+            <h3>Prefects System</h3>
+            <p>Senior students serve as prefects, helping maintain discipline, mentoring younger students, and assisting in school operations.</p>
+
+            <h3>Class Representatives</h3>
+            <p>Each class elects representatives who coordinate class activities and communicate with teachers.</p>
+
+            <h2>Student Support Services</h2>
+            <p>We are committed to supporting the overall well-being of our students through comprehensive support services.</p>
+
+            <h3>Guidance & Counseling</h3>
+            <p>Trained counselors provide support for academic challenges, personal issues, and career guidance. Confidential counseling sessions are available to all students.</p>
+
+            <h3>Peer Support Program</h3>
+            <p>Older students are trained to support younger peers, creating a culture of kindness and mutual assistance.</p>
+
+            <h3>Health Services</h3>
+            <p>Basic first aid and health monitoring are available on campus. We maintain close communication with parents regarding student health matters.</p>
+
+            <h3>Learning Support</h3>
+            <p>Additional assistance for students who need extra help with specific subjects or learning challenges.</p>
+
+            <h2>School Events</h2>
+            <p>Throughout the academic year, we organize events that bring our community together and create memorable experiences:</p>
+            <ul style="list-style: disc; margin-left: 2rem; margin-bottom: 2rem;">
+                <li>Sports Day - Annual athletics competition</li>
+                <li>Academic Day - Subject exhibitions and presentations</li>
+                <li>Cultural Festival - Celebration of diversity</li>
+                <li>Music & Drama Concerts - Student performances</li>
+                <li>Science Fair - Student research projects</li>
+                <li>Career Day - Exposure to various professions</li>
+                <li>Awards Day - Recognition of student achievements</li>
+                <li>Parent-Teacher Days - Community engagement</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Want to Experience Our Community?</h2>
+                <p>Visit us to see our facilities, meet our students and staff, and experience the vibrant atmosphere that makes St Anne's Prep special.</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/254743942030?text=Hello%2C%20I%20would%20like%20to%20visit%20Sunrise%20Academy%20and%20learn%20more%20about%20student%20life." class="btn btn-primary">Schedule a Visit</a>
+                    <a href="contact.html" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>St Anne's Prep</h4>
+                    <p>Empowering young minds through quality education and holistic development.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="student-life.html">Student Life</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul class="contact-info">
+                        <li>Phone: +254 743 942 030</li>
+                        <li>Email: info@stannesprep.ac.ke</li>
+                        <li>Mon - Fri: 8:00 AM - 4:00 PM</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Visit Us</h4>
+                    <p>Githunguri, Machakos County<br>Kenya</p>
+                    <a href="contact.html#map" class="link-arrow">Get Directions →</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 St Anne's Prep. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
